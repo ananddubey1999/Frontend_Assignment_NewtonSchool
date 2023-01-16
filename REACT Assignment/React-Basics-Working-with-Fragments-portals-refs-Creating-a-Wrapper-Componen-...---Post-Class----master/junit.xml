@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="7" failures="1" time="9.212">
+  <testsuite name="Import Individual components. " errors="0" failures="0" skipped="0" timestamp="2020-10-29T12:21:32" time="4.33" tests="6">
+    <testcase classname="Import Individual components.  Heading module should export respective class" name="Import Individual components.  Heading module should export respective class" time="0.047">
+    </testcase>
+    <testcase classname="Import Individual components.  App module should export respective class" name="Import Individual components.  App module should export respective class" time="0.361">
+    </testcase>
+    <testcase classname="Import Individual components.  InputQuery module should export respective class" name="Import Individual components.  InputQuery module should export respective class" time="0">
+    </testcase>
+    <testcase classname="Import Individual components.  SubHeading module should export respective class" name="Import Individual components.  SubHeading module should export respective class" time="0">
+    </testcase>
+    <testcase classname="Import Individual components.  SubmitButton module should export respective class" name="Import Individual components.  SubmitButton module should export respective class" time="0">
+    </testcase>
+    <testcase classname="Import Individual components.  SubmitButton module should export respective class" name="Import Individual components.  SubmitButton module should export respective class" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="Import Tests." errors="0" failures="1" skipped="0" timestamp="2020-10-29T12:21:32" time="4.321" tests="1">
+    <testcase classname="Import Tests. App.js should import  Heading,InputQuery,SubHeading and SubmitButton module" name="Import Tests. App.js should import  Heading,InputQuery,SubHeading and SubmitButton module" time="0.015">
+      <failure>Error: expect(received).toMatchSnapshot()
+
+Snapshot name: `Import Tests. App.js should import  Heading,InputQuery,SubHeading and SubmitButton module 1`
+
+- Snapshot  - 3
++ Received  + 0
+
+@@ -3,12 +3,9 @@
+      Welcome to our Site.
+    &lt;/h1&gt;
+    &lt;h5&gt;
+      Happy to solve you doubts.
+    &lt;/h5&gt;
+-   &lt;input
+-     placeHolder=&quot;Enter your query here..&quot;
+-   /&gt;
+    &lt;button&gt;
+      Ask
+    &lt;/button&gt;
+  &lt;/div&gt;
+    at Object.&lt;anonymous&gt; (C:\Users\hites\Documents\NewtonOfficial\Import-Export-Js-Solution\src\components\snapShotTesting.test.js:11:22)
+    at Object.asyncJestTest (C:\Users\hites\Documents\NewtonOfficial\Import-Export-Js-Solution\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
+    at C:\Users\hites\Documents\NewtonOfficial\Import-Export-Js-Solution\node_modules\jest-jasmine2\build\queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\hites\Documents\NewtonOfficial\Import-Export-Js-Solution\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
+    at C:\Users\hites\Documents\NewtonOfficial\Import-Export-Js-Solution\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
