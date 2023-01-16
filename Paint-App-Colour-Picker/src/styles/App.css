@@ -1,0 +1,53 @@
+html, body {
+    height: 100%;
+    background-color: #3c415e;
+}
+
+#master {
+    height: 75%;
+    vertical-align: baseline;
+    padding-top: 10%;
+}
+
+#root {
+    height: 100%;
+}
+
+.heading {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -15%;
+}
+
+.holder {
+    display: flex;
+    margin: auto;
+    width: fit-content;
+}
+
+button {
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 14px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn-blue {
+    background: rgb(34, 193, 195);
+    color: black;
+}
+
+.btn-orange {
+    background: rgb(221, 112, 18);
+    color: black;
+}
+
+.btn-green {
+    background: rgb(44, 209, 88);
+    color: black;
+}
