@@ -1,0 +1,5 @@
+node_modules
+.DS_store
+cypress
+cypress.json
+mochawesome-report

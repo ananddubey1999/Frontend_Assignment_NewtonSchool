@@ -1,0 +1,16 @@
+.square{
+    width: 75px;
+    height: 75px;
+    background-color: red;
+    text-align: center;
+    color: white;
+}
+
+.circle{
+    width: 75px;
+    height: 75px;
+    background-color: purple;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+}

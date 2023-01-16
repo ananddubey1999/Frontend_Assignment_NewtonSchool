@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#main{
+    background: gray;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    font-family: sans-serif;
+}
+.container{
+    background-color: white;
+    width: 700px;
+    height: fit-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2);
+}
+.header{
+    background-image: linear-gradient(60deg, red, black);
+    border-radius: 15px 15px 0 0;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+.ques-area{
+    margin: 20px;
+    position: relative;
+}
+.score{
+    position: absolute;
+    right: 5px;
+}
+.ques-area *{
+    margin: 10px 0;
+}
+.ques-area li{
+    list-style: none;
+}
+.options{
+    display: flex;
+}
+.options button{
+    background-color: rgb(62, 199, 62, 0.8);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    width: 50%;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.options button:hover{
+    background-color: rgb(62, 199, 62,1);
+    transition: 0.3s;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+@media only screen and (max-width: 750px){
+    .container{
+        width: 100%;
+    }
+    .options{
+        flex-direction: column;
+    }
+}
