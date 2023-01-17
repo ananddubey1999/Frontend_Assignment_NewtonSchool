@@ -39,12 +39,18 @@ class App extends Component {
   }
 
   render() {
+    let count =0;
     return (
       <div id="main">
         <ol>
-          {this.cityList.filter( (city)=>city.country=='India').map( (city,index)=>{
-            const key = `location${index + 1}`
-            return <li key={key}>{city.name}</li>;
+          {this.cityList.filter(city=>{
+            if(city.country==="India"){
+              count++
+            }
+            return city.country==="India"&&count<=3
+    
+          }).map((city,index)=>{
+           return <li key={`location${index+1}`}>{city.name}</li>
           })}
         </ol>
         
