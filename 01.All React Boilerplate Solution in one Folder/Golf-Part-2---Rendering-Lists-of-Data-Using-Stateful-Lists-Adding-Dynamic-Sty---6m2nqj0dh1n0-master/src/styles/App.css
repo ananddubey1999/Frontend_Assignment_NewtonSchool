@@ -1,0 +1,48 @@
+.playground{
+	width:50%;
+    height:50%;
+    margin: auto;
+	margin-top: 250px;
+    
+}
+body html .root {
+    height: 100%;
+}
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:ital,wght@1,100&display=swap");
+
+.ballProvider{
+	font-family: "Fredoka One", cursive;
+  
+	  background-color: #202124;
+  color: white;
+  height: 30px;
+  font-size: 15px;
+  border-radius:8px;
+  border: none;
+  width: 195px;
+  margin: 15px;
+  
+
+}
+.reset{
+	font-family: "Fredoka One", cursive;
+  
+	  background-color: #202124;
+  color: white;
+  height: 30px;
+  font-size: 15px;
+  border-radius:8px;
+  border: none;
+  width: 100px;
+  
+
+}
+.ball{
+    background-color: black;
+    box-shadow: 0 10px 10px -6px;
+    position: relative;
+    right: 0px;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
