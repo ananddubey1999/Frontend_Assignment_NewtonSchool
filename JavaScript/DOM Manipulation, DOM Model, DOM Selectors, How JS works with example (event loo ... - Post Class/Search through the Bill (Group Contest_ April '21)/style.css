@@ -1,0 +1,8 @@
+td,th,tr{
+    padding: 5px;
+    border: 2px solid black;
+    margin-top: 15px;
+}
+tr:nth-child(1){
+    background-color: rgba(128, 128, 128, 0.589);
+}
