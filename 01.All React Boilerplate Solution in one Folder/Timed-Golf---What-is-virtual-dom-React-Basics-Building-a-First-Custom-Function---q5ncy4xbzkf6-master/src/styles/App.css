@@ -1,0 +1,45 @@
+.heading-timer {
+  position: absolute;
+  top: 50px;
+  left: 720px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:ital,wght@1,100&display=swap");
+
+.ballProvider {
+  font-family: "Fredoka One", cursive;
+  background-color: #202124;
+  color: white;
+  height: 30px;
+  font-size: 15px;
+  border-radius: 8px;
+  border: none;
+  width: 195px;
+  margin: 15px;
+  height: 60px;
+
+}
+
+
+.ball {
+  background-color: black;
+  box-shadow: 0 10px 10px -6px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+}
+
+
+.hole {
+  background-color: rgb(62, 85, 107);
+  /* box-shadow: 0 10px 10px 0px; */
+  position: absolute;
+  top: 250px;
+  left: 250px;
+  height: 50px;
+  width: 50px;
+  border-radius: 30px;
+}
