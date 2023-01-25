@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Modak&display=swap');
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background: black;
+}
+
+h1 {
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    /* font-family: 'Modak', cursive; */
+}
+
+#message {
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+}
+
+input {
+    background-color: black;
+    border: none;
+    border-bottom: 2px white ridge;
+    color: white;
+    font-size: 30px;
+    font-family: 'Dosis', sans-serif;
+    width: 70px;
+    text-align: center;
+}
+
+input:focus {
+    outline: none;
+}
+
+#whole-center {
+    width: content;
+    padding-left: 35%;
+    padding-top: 20%;
+}
+
+#current-time {
+    color: white;
+    font-size: 30px;
+    font-family: 'Dosis', sans-serif;
+    width: 70px;
+    margin: auto;
+    text-align: center;
+    /* padding-top: 20%; */
+}
