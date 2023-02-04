@@ -1,0 +1,19 @@
+.todo{
+    padding: 0.6rem 1.33rem;
+    margin: 0.1rem;
+    background-color: rgb(56, 56, 56);
+    color: #f4f4f4;
+    border-radius: 16px;
+}
+.todo-text{
+    padding: 0.2rem;
+    background-color: rgb(59, 0, 0);
+    text-align: center;
+    border-radius: 4px;
+}
+.todo-status{
+    padding: 0.2rem;
+    background-color: darkgoldenrod;
+    text-align: center;
+    border-radius: 4px;
+}
