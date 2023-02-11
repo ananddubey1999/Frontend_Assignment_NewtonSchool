@@ -10,4 +10,6 @@ function numberOfRoofs(arr)
 		 }
 	 }
 	 return count;
+	  
+	  
   }
