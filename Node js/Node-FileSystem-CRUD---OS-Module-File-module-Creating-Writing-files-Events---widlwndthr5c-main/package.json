@@ -1,0 +1,32 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --silent"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(css|less|sass|scss)$": "<rootDir>/config/CSSStub.js"
+    },
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ],
+    "reporters": [
+      "default",
+      "jest-junit"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "enzyme-to-json": "^3.6.2",
+    "jest": "^27.3.1",
+    "jest-junit": "^13.0.0"
+  },
+  "devDependencies": {
+    "xml-js": "^1.6.11"
+  }
+}
